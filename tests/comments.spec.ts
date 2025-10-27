@@ -10,7 +10,7 @@ import {
   getComment,
 } from "./support/helpers";
 
-test.describe("Comments API - Testes Independentes", () => {
+test.describe("Comments testes CRUD", () => {
   const apiEndpoint = process.env.BASE_URL + "/comments";
 
   test("deve criar um novo comentário", async ({ request }) => {

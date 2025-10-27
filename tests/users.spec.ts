@@ -7,7 +7,7 @@ import {
 } from "./support/helpers";
 import { IUserPayload } from "./support/interfaces/UserPayload";
 
-test.describe("Users API - Testes Independentes", () => {
+test.describe("Users testes CRUD", () => {
   const apiEndpoint = process.env.BASE_URL + "/users";
 
   test("deve criar um novo usuário", async ({ request }) => {

@@ -8,7 +8,7 @@ import {
   getPost,
 } from "./support/helpers";
 
-test.describe("Posts API - Testes Independentes", () => {
+test.describe("Posts testes CRUD", () => {
   const apiEndpoint = process.env.BASE_URL + "/posts";
 
   test("deve criar um novo post", async ({ request }) => {
