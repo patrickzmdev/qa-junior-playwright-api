@@ -57,7 +57,7 @@ TOKEN=seu_token_aqui
 - Nunca compartilhe credenciais reais em repositórios públicos
 - Para ambientes de CI/CD, use secrets do GitHub/GitLab
 
-> **💡 Como obter o token:** Acesse [gorest.co.in](https://gorest.co.in/), faça login e gere seu token de acesso em "My Account → Access Tokens"
+> **Como obter o token:** Acesse [gorest.co.in](https://gorest.co.in/), faça login e gere seu token de acesso em "My Account → Access Tokens"
 
 ## Execução dos Testes
 
